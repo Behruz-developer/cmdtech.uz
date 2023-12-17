@@ -76,6 +76,8 @@ const langData = {
       "footer_text15": "Mijozlarimiz fikrlari", 
       "footer_text16": "Loyihalar va nashrlar", 
       "footer_text17": "Bizni Kuzatib Boring:",
+      "footer_text2.2": "Arizangizni yuboring",      
+
       "": "",
       "": "",
       "": "",
@@ -160,6 +162,8 @@ const langData = {
       "footer_text15": "Мнения наших клиентов", 
       "footer_text16": "Проекты и публикации", 
       "footer_text17": "Подписывайтесь на нас:", 
+      "footer_text2.2":"Оставить заявку",
+
       "": "", 
       "": "", 
       "": "", 
@@ -248,6 +252,8 @@ const langData = {
       "footer_text15": "Our customers' opinions", 
       "footer_text16": "Projects and publications", 
       "footer_text17": "Follow us:",
+      "footer_text2.2": "Submit your application",
+
       "": "",
       "": "",
       "": "",

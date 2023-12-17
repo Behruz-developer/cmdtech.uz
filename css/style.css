@@ -125,7 +125,7 @@ nav {
   }
   
   .menu ul li a:hover {
-    color: grey;
+    color: rgb(186, 180, 180);
   }
   
   nav label.btnn {
@@ -239,7 +239,7 @@ nav.scrolled .logo {
       left: -100%;
       width: 100%;
       max-width: 400px;
-      padding-top: 150px;
+      padding-top: 50px;
       height: 100%;
       background: rgb(0, 0, 0, 0.8);
       z-index: 12;
@@ -341,7 +341,7 @@ nav.scrolled .logo {
       left: -100%;
       width: 100%;
       max-width: 400px;
-      padding-top: 150px;
+      padding-top: 50px;
       height: 100%;
       background: rgb(0, 0, 0, 0.8);
       z-index: 12;
@@ -749,7 +749,7 @@ nav.scrolled .logo {
   }
 }
 
-@media (max-width:960px) {
+@media (max-width:1250px) {
   .row_card{
     width: 48.6%;
     background: white;
@@ -891,6 +891,9 @@ nav.scrolled .logo {
 }
 .section2_card_img{
   width: 100%;
+}
+.section2_border{
+  border-bottom: 1px dashed rgb(123, 123, 223);
 }
 .section2_box_text{
   width: 48%;
