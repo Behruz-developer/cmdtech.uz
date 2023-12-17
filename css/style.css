@@ -1301,7 +1301,7 @@ line-height: 1.8em;
   border: none;
 
 }
-.section2-4_button a{
+.section2-4_button {
   text-decoration: none;
   background: #5050FE;
   padding: 20px;
@@ -1311,6 +1311,7 @@ line-height: 1.8em;
   font-size: 18px;
   font-style: normal;
   border-radius: 10px;
+  text-align: center;
 }
 .section2-4_button :hover{
   box-shadow: 1px 1px 5px 5px rgb(62, 62, 112);
@@ -1374,14 +1375,14 @@ line-height: 1.8em;
     border: none;
   
   }
-  .section2-4_button a{
+  .section2-4_button {
     text-decoration: none;
     background: #5050FE;
     padding: 20px;
     color: white;
     color: #FFF;
     font-family: "Montserrat", sans-serif;
-    font-size: 11px;
+    font-size: 15px;
     font-style: normal;
     border-radius: 10px;
   }
@@ -1421,7 +1422,7 @@ line-height: 1.8em;
     color: white;
     color: #FFF;
     font-family: "Montserrat", sans-serif;
-    font-size: 11px;
+    font-size: 15px;
     font-style: normal;
     border-radius: 10px;
   }
@@ -1642,6 +1643,9 @@ line-height: 1.8em;
   background: #5050FE;
   padding: 10px 25px;
   border-radius: 5px;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
 }
 .footer_link:hover{
   box-shadow: rgb(62, 62, 112) 1px 1px 5px 5px;
@@ -1798,11 +1802,12 @@ line-height: 1.8em;
 .second_links{
   margin-top: 30px;
   display: flex;
-  justify-content: space-between;
+  column-gap: 15px;
+  /* justify-content: space-evenly; */
 }
 .second_links img{
-  width: 54px;
-  height: 55px;
+  width: 40px;
+  height: 41px;
 }
 .footer_end{
   padding: 5px 0px;
