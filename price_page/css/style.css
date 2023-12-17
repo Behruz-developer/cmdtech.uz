@@ -31,6 +31,7 @@ body{
     display: flex;
     align-items: center;
 }
+
 .row_card1 a {
     text-decoration: none;
     color: white;
@@ -60,6 +61,7 @@ body{
     align-items: center;
     float: right;
 }
+
   .language_container a{
     color: white;
     font-size: 14px;
@@ -123,7 +125,7 @@ nav {
   }
   
   .menu ul li a:hover {
-    color: black;
+    color: grey;
   }
   
   nav label.btnn {
@@ -176,7 +178,9 @@ nav {
 .number-card{
     display: flex;
 }
-
+.number-card img{
+  width: 25px;
+}
 .number-card a {
     font-size: 20px;
     text-decoration: none;
@@ -549,6 +553,10 @@ nav.scrolled .logo {
     display: flex;
     column-gap: 20px;
     justify-content: center;
+    width: 100%;
+  }
+  .section_card2 img{
+    width: 70%;
   }
   .section_card1_text1{
     color: white;
@@ -615,118 +623,311 @@ nav.scrolled .logo {
    }
 }
 
+@media (max-width:560px) {
+  .section{
+    width: 100%;
+    margin-top: 66px;
+    height: auto;
+    background: #1A1C20;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .container_section{
+    display: flex;
+    flex-direction: column;
+  }
+  .section_card1_text2{
+    display: none;
+  }
+  .section_card1{
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+  }
+  .section_card2{
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    width: 100%;
+  }
+  .section_card2 img{
+    width: 90%;
+  }
+}
 
-/* ***Our-section */  
-.our_section{
+.prices{
   width: 100%;
-  padding: 66px 0;
+  padding-top: 100px;
 }
-.sectoin_text h2{
-  font-size: 50px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  text-align: center;
-}
-.row1{
-  padding-top: 66px;
-  width: 100%;
+.prices_box{
   display: flex;
-  column-gap: 2.66%;
-  row-gap: 30px;
   flex-wrap: wrap;
+  column-gap: 2%;
+  row-gap: 30px;
 }
 
-.row_card{
-  width: 23%;
+.price_card{
+  width: 32%;
   background: white;
-  height: 480px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
+  align-items: start;
+  text-align: start;
   row-gap: 10px;
   border-radius: 10px;
   box-shadow: 4px 4px 20px 4px rgba(0, 0, 0, 0.2);
+  padding: 40px 30px;
 }
-.im1 img{
-  width: 100px;
-  height: 120px;
-  padding-top: 40px;
+.price_card_title1 h1{
+  color: #5050FE;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 750;
+  font-size: 44px;
+  line-height: 57px;
+  margin-bottom: 20px;
 }
-.section_h4{
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 22px;
-  margin-top: 20px;
+.price_card_title2 h4{
+  font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 750;
+    font-size: 35px;
+    letter-spacing: -1px;
+    margin-bottom: 30px;
 }
-.section_p{
+.price_card_text{
   width: 100%;
-  height: 150px;
-  margin-top: 10px;
-  padding: 0px 30px;
+  height: fit-content;
   font-family: "Inter", sans-serif;
   font-weight: 400;
-  font-size: 15px;
-  color: #131620;
+  font-size: 18px;
+  color: #8D8D8D;
+  margin: auto;
+  line-height: 25px;
 
 }
-.section_button{
-  margin-top: 20px;
+.price_buton{
+  margin-top: 50px;
 }
-.sbutton_text{
+.price_link{
   border: none;
+  
 }
-.sbutton_text a{
+.price_buton a{
   text-decoration: none;
   color: white;
   background: #01175e;
   border-radius: 5px;
-
   padding: 10px 64px;
   font-family: "Montserrat" sans-serif;
   font-size: 14px;
   font-family: 600;
-
 }
 
-@media (min-width:560px) and (max-width:960px) {
-  .sectoin_text h2{
-    font-size: 40px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
-    text-align: center;
+@media (max-width: 1360px) {
+  .price_card_title1 h1{
+    color: #5050FE;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 750;
+    font-size: 38px;
+    line-height: 57px;
+    margin-bottom: 20px;
   }
-}
-@media (min-width:0px) and (max-width:560px) {
-  .sectoin_text h2{
-    font-size: 25px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
-    text-align: center;
+  .price_card_title2 h4{
+    font-family: "Inter", sans-serif;
+      font-style: normal;
+      font-weight: 750;
+      font-size: 25px;
+      letter-spacing: -1px;
+      margin-bottom: 30px;
   }
-}
-@media (max-width:960px) {
-  .row_card{
+  .price_card_text{
     width: 100%;
+    height: fit-content;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #8D8D8D;
+    margin: auto;
+    line-height: 25px;
+  
+  }
+}
+@media (max-width: 1200px) {
+  .price_card_title1 h1{
+    color: #5050FE;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 750;
+    font-size: 29px;
+    line-height: 57px;
+    margin-bottom: 20px;
+  }
+  .price_card_title2 h4{
+    font-family: "Inter", sans-serif;
+      font-style: normal;
+      font-weight: 750;
+      font-size: 29px;
+      letter-spacing: -1px;
+      margin-bottom: 30px;
+  }
+  .price_card_text{
+    width: 100%;
+    height: fit-content;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #8D8D8D;
+    margin: auto;
+    line-height: 25px;
+  
+  }
+}
+@media (max-width: 960px) {
+  .prices_box{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 8%;
+    row-gap: 30px;
+  }
+  
+  .price_card{
+    width: 46%;
     background: white;
-    height: 480px;
-    display: inline;
+    display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-    /* row-gap: 10px; */
+    align-items: start;
+    text-align: start;
+    row-gap: 10px;
     border-radius: 10px;
     box-shadow: 4px 4px 20px 4px rgba(0, 0, 0, 0.2);
-    /* row-gap: 3%; */
-    margin-top: 30px;
+    padding: 40px 30px;
   }
-  .row1{
-    padding-top: 60px;
+  .price_card_title1 h1{
+    color: #5050FE;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 750;
+    font-size: 35px;
+    line-height: 57px;
+    margin-bottom: 20px;
+  }
+  .price_card_title2 h4{
+    font-family: "Inter", sans-serif;
+      font-style: normal;
+      font-weight: 750;
+      font-size: 30px;
+      letter-spacing: -1px;
+      margin-bottom: 30px;
+  }
+  .price_card_text{
     width: 100%;
-    display: flex;
-    row-gap: 10%;
-
-  }
- 
+    height: fit-content;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #8D8D8D;
+    margin: auto;
+    line-height: 25px;
   
+  }
+}
+@media (max-width: 724px) {
+  .prices_box{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 8%;
+    row-gap: 30px;
+  }
+  
+  .price_card{
+    width: 46%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+    row-gap: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 20px 4px rgba(0, 0, 0, 0.2);
+    padding: 40px 30px;
+  }
+  .price_card_title1 h1{
+    color: #5050FE;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 750;
+    font-size: 30px;
+    line-height: 57px;
+    margin-bottom: 20px;
+  }
+  .price_card_title2 h4{
+    font-family: "Inter", sans-serif;
+      font-style: normal;
+      font-weight: 750;
+      font-size: 25px;
+      letter-spacing: -1px;
+      margin-bottom: 30px;
+  }
+  .price_card_text{
+    width: 100%;
+    height: fit-content;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #8D8D8D;
+    margin: auto;
+    line-height: 25px;
+  
+  }
+}
+@media (max-width: 724px) {
+  .prices_box{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 8%;
+    row-gap: 30px;
+  }
+  
+  .price_card{
+    width: 100%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+    row-gap: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 20px 4px rgba(0, 0, 0, 0.2);
+    padding: 40px 30px;
+  }
+  .price_card_title1 h1{
+    color: #5050FE;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 750;
+    font-size: 30px;
+    line-height: 57px;
+    margin-bottom: 20px;
+  }
+  .price_card_title2 h4{
+    font-family: "Inter", sans-serif;
+      font-style: normal;
+      font-weight: 750;
+      font-size: 25px;
+      letter-spacing: -1px;
+      margin-bottom: 30px;
+  }
+  .price_card_text{
+    width: 100%;
+    height: fit-content;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #8D8D8D;
+    margin: auto;
+    line-height: 25px;
+  
+  }
 }
