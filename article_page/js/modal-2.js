@@ -4,14 +4,11 @@ var btnn = document.getElementById("myBtnn")
 
 btnn.onclick = function() {
     modal.style.display = "none"
-    modal1.style.display = "block"
-    // alert('Muvaffaqiyatli jonatildi');
+    modal1.style.display = "flex"
+    
+    
+    setTimeout(function(){
+        modal1.style.display = "none";
+      }, 2000);
 }
-
-setTimeout(function(){
-    modal1.style.display = "none";
-  }, 5000);
-
-
- 
 

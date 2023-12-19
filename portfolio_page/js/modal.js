@@ -5,15 +5,15 @@ var btn3 = document.getElementById("myBtn3");
 var span = document.getElementsByClassName("close")[0];
 
 btn1.onclick = function() {
-  modal.style.display = "block";
+  modal.style.display = "flex";
 }
 
 btn2.onclick = function() {
-    modal.style.display = "block";
+    modal.style.display = "flex";
   }
 
 btn3.onclick = function() {
-    modal.style.display = "block";
+    modal.style.display = "flex";
   }
 span.onclick = function() {
   modal.style.display = "none";
@@ -24,3 +24,8 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+
+
+
+

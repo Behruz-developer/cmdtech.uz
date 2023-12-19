@@ -970,23 +970,22 @@ nav.scrolled .logo {
   }
   
   .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    display: none ;
+    position: fixed; 
+    z-index: 1; 
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+    align-items: center;
+    justify-content: center;
   }
   
-  /* Modal Content */
   .modal-content {
     background-color: #fefefe;
-    margin: auto;
     padding: 20px;
     border: 1px solid #888;
     width: 30%;
@@ -994,7 +993,6 @@ nav.scrolled .logo {
   
   }
   
-  /* The Close Button */
   .close {
     color: #aaaaaa;
     float: right;
@@ -1030,20 +1028,19 @@ nav.scrolled .logo {
   .modal_input{
     width: 80%;
     padding: 12px 20px;
-    margin: 8px 0;
     box-sizing: border-box;
-    border: 3px solid #ccc;
+    border: 1px solid #ccc;
     -webkit-transition: 0.5s;
     transition: 0.5s;
     outline: none;
     border-radius: 5px;
-    margin-bottom: 30px;
+    display: block;
+    margin-bottom: 30px
   }
   .modal_input:focus{
-    border: 3px solid #5050FE;
+    border: 1px solid #5050FE;
   
   }
-
   .modal_link{
     font-size: 18px;
     background: #5050FE;
@@ -1059,11 +1056,10 @@ nav.scrolled .logo {
     box-shadow: 2px 3px 15px 4px rgb(195, 195, 198);
     transition: 0.3s ease;
   }
-
+  
   @media (max-width:1200px) {
     .modal-content {
       background-color: #fefefe;
-      margin: auto;
       padding: 20px;
       border: 1px solid #888;
       width: 40%;
@@ -1075,7 +1071,6 @@ nav.scrolled .logo {
   @media (max-width:960px) {
     .modal-content {
       background-color: #fefefe;
-      margin: auto;
       padding: 20px;
       border: 1px solid #888;
       width: 50%;
@@ -1087,7 +1082,6 @@ nav.scrolled .logo {
   @media (max-width:760px) {
     .modal-content {
       background-color: #fefefe;
-      margin: auto;
       padding: 20px;
       border: 1px solid #888;
       width: 60%;
@@ -1099,7 +1093,6 @@ nav.scrolled .logo {
   @media (max-width:560px) {
     .modal-content {
       background-color: #fefefe;
-      margin: auto;
       padding: 20px;
       border: 1px solid #888;
       width: 80%;
@@ -1108,12 +1101,12 @@ nav.scrolled .logo {
     }
     
   }
-
+  
+  
   .modal2{
     display: none;
     position: fixed; 
     z-index: 1;
-    padding-top: 100px; 
     left: 0;
     top: 0;
     width: 100%; 
@@ -1121,6 +1114,8 @@ nav.scrolled .logo {
     overflow: auto; 
     background-color: rgb(0,0,0); 
     background-color: rgba(0,0,0,0.4);
+    align-items: center;
+    justify-content: center;
   }
   
   .modal2-content{
@@ -1133,7 +1128,7 @@ nav.scrolled .logo {
         /* width:40%; */
   
     color: black;
-    font-size: 32px;
+    font-size: 25px;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     line-height: 150%;
@@ -1147,7 +1142,7 @@ nav.scrolled .logo {
       /* text-align: center; */
       /* width: 60%; */
       color: black;
-      font-size: 29px;
+      font-size: 25px;
       font-family: "Montserrat", sans-serif;
       font-weight: 600;
       line-height: 150%;

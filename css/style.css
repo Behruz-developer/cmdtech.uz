@@ -1908,10 +1908,9 @@ line-height: 1.8em;
 }
 
 .modal {
-  display: none;
+  display: none ;
   position: fixed; 
   z-index: 1; 
-  padding-top: 100px; 
   left: 0;
   top: 0;
   width: 100%; 
@@ -1919,11 +1918,12 @@ line-height: 1.8em;
   overflow: auto; 
   background-color: rgb(0,0,0); 
   background-color: rgba(0,0,0,0.4);
+  align-items: center;
+  justify-content: center;
 }
 
 .modal-content {
   background-color: #fefefe;
-  margin: auto;
   padding: 20px;
   border: 1px solid #888;
   width: 30%;
@@ -1998,7 +1998,6 @@ line-height: 1.8em;
 @media (max-width:1200px) {
   .modal-content {
     background-color: #fefefe;
-    margin: auto;
     padding: 20px;
     border: 1px solid #888;
     width: 40%;
@@ -2010,7 +2009,6 @@ line-height: 1.8em;
 @media (max-width:960px) {
   .modal-content {
     background-color: #fefefe;
-    margin: auto;
     padding: 20px;
     border: 1px solid #888;
     width: 50%;
@@ -2022,7 +2020,6 @@ line-height: 1.8em;
 @media (max-width:760px) {
   .modal-content {
     background-color: #fefefe;
-    margin: auto;
     padding: 20px;
     border: 1px solid #888;
     width: 60%;
@@ -2034,7 +2031,6 @@ line-height: 1.8em;
 @media (max-width:560px) {
   .modal-content {
     background-color: #fefefe;
-    margin: auto;
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
@@ -2049,7 +2045,6 @@ line-height: 1.8em;
   display: none;
   position: fixed; 
   z-index: 1;
-  padding-top: 100px; 
   left: 0;
   top: 0;
   width: 100%; 
@@ -2057,6 +2052,8 @@ line-height: 1.8em;
   overflow: auto; 
   background-color: rgb(0,0,0); 
   background-color: rgba(0,0,0,0.4);
+  align-items: center;
+  justify-content: center;
 }
 
 .modal2-content{
@@ -2069,7 +2066,7 @@ line-height: 1.8em;
       /* width:40%; */
 
   color: black;
-  font-size: 32px;
+  font-size: 25px;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   line-height: 150%;
@@ -2083,7 +2080,7 @@ line-height: 1.8em;
     /* text-align: center; */
     /* width: 60%; */
     color: black;
-    font-size: 29px;
+    font-size: 25px;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     line-height: 150%;

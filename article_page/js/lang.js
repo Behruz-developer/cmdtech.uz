@@ -83,6 +83,8 @@ const langData = {
       "btn_text2": "Ismingiz: *",
       "btn_text3": "Telefon raqamingiz: *",
       "btn_text4": "Kompaniya nomi: *",
+      "modal-text": "So'rovingiz muvaffaqiyatli jo'natildi✅",
+
       "": "",
       "": "",
       "": "",
@@ -173,6 +175,8 @@ const langData = {
       "btn_text2": "Ваше имя: *",
       "btn_text3": "Ваш номер телефона: *",
       "btn_text4": "Название компании: *",
+      "modal-text": "Ваш запрос успешно отправлен✅",
+
       "": "", 
       "": "", 
       "": "", 
@@ -268,6 +272,8 @@ const langData = {
       "btn_text2": "Your name: *",
       "btn_text3": "Your phone number: *",
       "btn_text4": "Company name: *",
+      "modal-text": "Your request has been sent successfully✅",
+
       "": "",
       "": "",
       "": "",
