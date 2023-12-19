@@ -499,7 +499,7 @@ nav.scrolled .logo {
   .kpi_about_box2{
     margin-top: 50px;
     display: flex;
-    column-gap: 0%;
+    column-gap: 10%;
     flex-wrap: wrap;
   }
   .about_box2_card1{
