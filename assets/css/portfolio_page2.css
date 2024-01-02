@@ -70,7 +70,6 @@ body{
   .services_row1_title2:hover{
     color: red;
     transition: 0.1s ease;
-    border: 1px solid red;
   }
   .services_row1_link{
     text-decoration: none;
@@ -87,8 +86,6 @@ body{
   .services_row1_link:hover{
     color: red;
     transition: 0.1s ease;
-    border: 1px solid red;
-    
   }
 
   .services_row2{
