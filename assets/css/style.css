@@ -66,10 +66,7 @@ body{
  font-size: 18px;
  font-family: 600;
 }
-.nav_button1 :hover{
- box-shadow: 1px 1px 5px 5px rgb(62, 62, 112);
- transition: ease 0.3s;
-}
+
 .card1_text3{
   text-decoration: none;
   color: black;
@@ -180,10 +177,7 @@ body{
     font-size: 18px;
     font-family: 600;
    }
-   .nav_button1 :hover{
-    box-shadow: 1px 1px 5px 5px rgb(62, 62, 112);
-    transition: ease 0.3s;
-   }
+
 }
 
 @media (max-width:560px) {
@@ -191,7 +185,7 @@ body{
     width: 100%;
     margin-top: 66px;
     height: auto;
-    background: #1A1C20;
+    background: #ffffff;
     padding-top: 20px;
     padding-bottom: 20px;
   }
@@ -652,10 +646,7 @@ color: #5050FE;
   font-style: normal;
   border-radius: 10px;
 }
-.seo_button_text :hover{
-  box-shadow: 1px 1px 5px 5px rgb(62, 62, 112);
-  transition: ease 0.3s;
-}
+
 
 @media (max-width:600px) {
   .order_seo_text p{

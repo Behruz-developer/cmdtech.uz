@@ -67,10 +67,7 @@ body{
  font-size: 18px;
  font-family: 600;
 }
-.nav_button1 :hover{
- box-shadow: 1px 1px 5px 5px rgb(62, 62, 112);
- transition: ease 0.3s;
-}
+
 .card1_text3{
   text-decoration: none;
   color: black;

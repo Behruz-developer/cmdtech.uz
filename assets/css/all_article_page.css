@@ -71,10 +71,7 @@ body{
  font-size: 18px;
  font-family: 600;
 }
-.nav_button1 :hover{
- box-shadow: 1px 1px 5px 5px rgb(62, 62, 112);
- transition: ease 0.3s;
-}
+
 .card1_text3{
   text-decoration: none;
   color: black;
@@ -93,7 +90,6 @@ body{
     width: 100%;
     margin-top: 66px;
     height: auto;
-    background: #1A1C20;
     padding-top: 20px;
     padding-bottom: 20px;
   }
@@ -119,7 +115,6 @@ body{
     width: 70%;
   }
   .section_card1_text1{
-    color: white;
     font-size: 36px;
     font-family: 'Montserrat', sans-serif; 
     font-weight: bold;
@@ -128,8 +123,6 @@ body{
   .banner_block{
     width: 160px;
     height: 160px;
-    background: #111319;
-    border: 2px dashed white;
     border-radius: 14px;
     display: flex;
     flex-direction: column;
@@ -141,10 +134,8 @@ body{
   .banner_block p{
     padding: 10px 0px;
     font-size: 12px;
-    color: white;
   }
   .banner_block h5{
-     color: white;
     font-size: 22px;
     font-weight: 600;
   }
@@ -188,7 +179,6 @@ body{
     width: 100%;
     margin-top: 66px;
     height: auto;
-    background: #1A1C20;
     padding-top: 20px;
     padding-bottom: 20px;
   }
