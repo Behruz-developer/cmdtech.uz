@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 body{
-    background: rgb(248, 248, 248);
+    background: #f2f2f3;
 }
 
 
@@ -15,7 +15,7 @@ body{
     width: 100%;
     margin-top: 66px;
     height: auto;
-    background: #1A1C20;
+    background: #ffffff;
     padding-top: 20px;
     padding-bottom: 50px;
   }
@@ -30,7 +30,7 @@ body{
     padding-top: 75px;
   }
   .section_card1_text1{
-     color: white;
+     color: #000;
      font-size: 55px;
      font-family: 'Montserrat', sans-serif; 
      font-weight: bold;
@@ -42,7 +42,7 @@ body{
   width: 90%;
 }
 .card1_text{
-  color: white;
+  color:black;
   padding-bottom: 20px;
   font-family: "Inter";
   font-size: 18px;
@@ -73,9 +73,9 @@ body{
 }
 .card1_text3{
   text-decoration: none;
-  color: white;
+  color: black;
   padding-bottom: 12px;
-  border-bottom: 1px dashed white;
+  border-bottom: 1px dashed black;
   font-size: 18px;
   font-family: "Inter";
   font-weight: 400;
@@ -95,7 +95,6 @@ body{
     width: 100%;
     margin-top: 66px;
     height: auto;
-    background: #1A1C20;
     padding-top: 20px;
     padding-bottom: 20px;
   }
@@ -121,7 +120,6 @@ body{
     width: 70%;
   }
   .section_card1_text1{
-    color: white;
     font-size: 36px;
     font-family: 'Montserrat', sans-serif; 
     font-weight: bold;
@@ -148,7 +146,6 @@ body{
 
   .nav_button1 a{
     text-decoration: none;
-    color: white;
     background: rgb(80, 80, 254);
     border-radius: 5px;
 
@@ -168,7 +165,6 @@ body{
     width: 100%;
     margin-top: 66px;
     height: auto;
-    background: #1A1C20;
     padding-top: 20px;
     padding-bottom: 20px;
   }
@@ -206,7 +202,7 @@ body{
     font-weight: 800;
     line-height: 30px;
   }
-  .works_text p{
+  .works_text_1{
     margin-top: 20px;
     width: 80%;
     font-size: 18px;
@@ -230,18 +226,24 @@ body{
     width: 32%;
 
   }
-  .work_link_card{
-    position: relative;
-  }
+
   .wroks_content_img img{
     width: 100%;
-    height: 460px;
+    height: 500px;
     object-fit: cover;
 
   }
-  .work_link_card{
+  .work_link_box{
+    width: 25%;
+
     display: flex;
     position: absolute;
+    justify-content: space-between;
+    /* column-gap: 200%; */
+
+  }
+  .work_link_card1{
+    display: flex;
     margin-top: 10px;
     column-gap: 5px;
     margin-left: 5px;
@@ -258,6 +260,11 @@ body{
     color:#5050FE;
     box-shadow: 1px 3px 8px 1px rgb(224, 220, 220);
   }
+  @media (max-width:1440px) {
+    .work_link_box{
+      width: 28%;
+    }
+  }
   @media (max-width:1200px) {
     .our_wroks_content{
       width:100%;
@@ -267,6 +274,9 @@ body{
       height: 800px;
       object-fit: cover;
   
+    }
+    .work_link_box{
+      width: 89%;
     }
   }
   @media (max-width:1050px) {
@@ -315,7 +325,7 @@ body{
 
   
  .section2-4{
-    background: #1A1C20;
+    background: #ffffff;
     width: 100%;
     padding: 60px 0px;
     margin-top: 100px;
@@ -341,7 +351,7 @@ body{
     width: 60%;
    }
    .section2-4_box h4{
-    color: #FFF;
+    color: #000;
     font-family: "Montserrat" ,sans-serif;
     font-size: 32px;
     font-weight: 700;
@@ -350,7 +360,7 @@ body{
   }
    .section2-4_box p{
     margin-top: 30px;
-    color: #FFF;
+    color: #000;
     font-family: 'Inter',sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -366,7 +376,6 @@ body{
     text-decoration: none;
     background: #5050FE;
     padding: 20px;
-    color: white;
     color: #FFF;
     font-family: "Montserrat", sans-serif;
     font-size: 18px;

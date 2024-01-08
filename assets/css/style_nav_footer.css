@@ -9,7 +9,7 @@
 }
 .header_wrapper{
     max-width: 100%;
-    background: #131620;
+    background: #3333b7;
     padding: 10px 0;
 }
 .row{
@@ -33,7 +33,7 @@
 
 
 .active_lang {
-    color: #5050FE !important;
+    color: rgb(159, 156, 156) !important;
   }
   
   .lang-button {
@@ -140,7 +140,7 @@ nav {
 .nav_button {
      border: none;
 }
-.nav_button a{
+.nav_button_text{
     text-decoration: none;
     color: #5050FE;
     background: white;
@@ -162,7 +162,6 @@ nav {
 }
 
 .phone-numbers {
-    display: none; /* Boshlang'ich holatda ko'rinmasin */
     color: white;
     padding-right: 20px;
 }
@@ -178,7 +177,7 @@ nav {
   height: 25px;
   margin-left: 10px;
 }
-.number-card a {
+.number_card_text {
     font-size: 20px;
     text-decoration: none;
     color: white;
@@ -189,9 +188,9 @@ nav.scrolled .phone-numbers {
 nav.scrolled{
     top:0;
 }
-nav.scrolled .logo {
-    display: none; /* Scroll qilinganda yashiriladi */
-}
+/* nav.scrolled .logo {
+    display: none; 
+} */
 
 .menu ul .language_container1{
     display: none;
@@ -302,7 +301,7 @@ nav.scrolled .logo {
    
   }
 
-  @media (max-width: 960px) {
+  @media (max-width: 1080px) {
 
     .header_wrapper{
         display: none;
@@ -423,6 +422,7 @@ nav.scrolled .logo {
       }
       
 }
+
 @media (min-width:1047px) and (max-width:1280px) {
     .menu ul li a {
         text-decoration: none;
@@ -450,7 +450,8 @@ nav.scrolled .logo {
 
 .footer{
     width: 100%;
-    background: #131620;}
+    background: #ffffff;
+    }
   .footer_box{
     padding: 80px 0px;
   }
@@ -463,7 +464,7 @@ nav.scrolled .logo {
     width: 35%;
   }
   .first_block1_title{
-    color: #FFF;
+    color: #000;
     font-family: "Montserrat", sans-serif;
     font-size: 22px;
     font-style: normal;
@@ -472,7 +473,7 @@ nav.scrolled .logo {
     /* margin-bottom: 20px; */
   }
   .first_block1_subtitle{
-    color: #FFF;
+    color: #000;
     font-family: "Inter", sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -497,25 +498,23 @@ nav.scrolled .logo {
     transition: all 0.3s ease 0s;
   }
   .first_block2_title{
-    color: #FFF;
+    color: #000;
     font-family: "Montserrat", sans-serif;
     font-size: 22px;
     font-style: normal;
     font-weight: 700;
     line-height: 27.5px;
-  
   }
   .first_block2_subtitle{
-    color: #FFF;
+    color: #000;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px; 
+    line-height: 20px;
     letter-spacing: 0.08px;
     margin-bottom: 15px;
     margin-top: 20px;
-    
   }
   .first_phone_block{
     display: flex;
@@ -524,11 +523,10 @@ nav.scrolled .logo {
   }
   .first_phone_block img{
     width: 35px;
-    height: 30px;
   }
   .first_phone_block a {
     text-decoration: none;
-    color: #FFF;
+    color: #000;
     font-family: "Inter" , sans-serif;
     font-size: 26.4px;
     font-style: normal;
@@ -547,20 +545,22 @@ nav.scrolled .logo {
   }
   .first_block_location{
     display: flex;
+    /* align-items: center; */
     column-gap: 3%;
     margin-bottom: 15px;
   }
   .first_block_location img{
-    width: 30px;
-    height: 30px;
+    margin-top: 8px;
+    width: 22px;
+    height: 26px;
   }
   .first_block_location p{
-    color: #FFF;
+    color: #000;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px; 
+    line-height: 20px;
     letter-spacing: 0.08px;
     margin-bottom: 15px;
   }
@@ -572,15 +572,15 @@ nav.scrolled .logo {
   }
   .first_block3_gmail img{
     width: 27px;
-    height: 21px;
+    height: 27px;
   }
   .first_block3_gmail p {
-    color: #FFF;
+    color: #000;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px; 
+    line-height: 20px;
     letter-spacing: 0.08px;
     margin-bottom: 15px;
   }
@@ -590,15 +590,16 @@ nav.scrolled .logo {
   }
   .first_block3_website img{
     width: 26px;
+    background: #000;
     height: 25px;
   }
   .first_block3_website p{
-    color: #FFF;
+    color: #000;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px; 
+    line-height: 20px;
     letter-spacing: 0.08px;
     margin-bottom: 15px;
   }
@@ -633,7 +634,7 @@ nav.scrolled .logo {
   }
   .second_subtitle li a{
     text-decoration: none;
-    color: #FFF;
+    color: #000;
     font-family: "Inter",sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -686,6 +687,9 @@ nav.scrolled .logo {
     }
     .first_block1{
       width: 50%;
+    }
+    .first_block_location img{
+      margin-top: 0px;
     }
   }
   @media (max-width: 960px) {

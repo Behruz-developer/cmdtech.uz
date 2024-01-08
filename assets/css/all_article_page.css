@@ -15,7 +15,7 @@ body{
     width: 100%;
     margin-top: 66px;
     height: auto;
-    background: #1A1C20;
+    background: #ffffff;
     padding-top: 20px;
     padding-bottom: 50px;
   }
@@ -34,7 +34,7 @@ body{
     padding-top: 75px;
   }
   .section_card1_text1{
-     color: white;
+     color: black;
      font-size: 55px;
      font-family: 'Montserrat', sans-serif; 
      font-weight: bold;
@@ -46,7 +46,7 @@ body{
   width: 90%;
 }
 .card1_text{
-  color: white;
+  color: black;
   padding-bottom: 20px;
   font-family: "Inter";
   font-size: 18px;
@@ -77,9 +77,9 @@ body{
 }
 .card1_text3{
   text-decoration: none;
-  color: white;
+  color: black;
   padding-bottom: 12px;
-  border-bottom: 1px dashed white;
+  border-bottom: 1px dashed black;
   font-size: 18px;
   font-family: "Inter";
   font-weight: 400;
