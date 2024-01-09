@@ -222,7 +222,12 @@ body{
     font-family: "Inter", sans-serif;
     text-decoration: none;
     color: #5050FE;
+    transition: ease 0.3s;
 
+
+  }
+  .box1_link:hover{
+    box-shadow: 1px 1px 11px rgb(223, 223, 223);
   }
   .content_box2{
     display: flex;

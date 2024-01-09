@@ -842,7 +842,7 @@ nav.scrolled{
     margin-bottom: 30px
   }
   .modal_input:focus{
-    border: 1px solid #5050FE;
+    border: 1px solid rgb(80, 80, 254);
   
   }
   .modal_link{
@@ -983,4 +983,11 @@ nav.scrolled{
       padding: 15px;
       border-radius: 5px;
     }
+  }
+.btn_hover{
+  transition: ease 0.3s;
+
+}
+  .btn_hover:hover{
+    box-shadow: 1px 1px 13px rgb(112, 112, 249);
   }

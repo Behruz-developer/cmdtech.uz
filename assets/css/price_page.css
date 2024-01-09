@@ -623,10 +623,7 @@ body{
   font-weight: 600;
   line-height: 134.4%
 }
-.info_link:hover{
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 255, 0.5); 
-  transition: box-shadow 0.3s ease-in-out;
-}
+
 
 @media (max-width:1440px) {
   .info_link{

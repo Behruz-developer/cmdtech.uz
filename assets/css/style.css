@@ -227,13 +227,13 @@ body{
   padding-top: 66px;
   width: 100%;
   display: flex;
-  column-gap: 2.6%;
-  row-gap: 30px;
+  column-gap: 5%;
+  row-gap: 50px;
   flex-wrap: wrap;
 }
 
 .row_card{
-  width: 31.6%;
+  width: 30%;
   background: white;
   /* height: 480px; */
   display: flex;
@@ -308,7 +308,7 @@ body{
 
 @media (max-width:1250px) {
   .row_card{
-    width: 48.6%;
+    width: 47.5%;
     background: white;
     /* height: 480px; */
     display: flex;
