@@ -326,7 +326,6 @@ body{
     width: 100%;
     padding: 60px 0px;
     margin-top: 100px;
-    margin-bottom: 100px;
    }
    .section2-4_box{
     display: flex;
@@ -438,6 +437,7 @@ body{
 }
 
 .comments{
+  padding-top: 100px;
     width: 100%;
     margin-bottom: 100px;
 }

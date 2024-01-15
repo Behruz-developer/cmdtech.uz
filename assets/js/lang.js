@@ -105,7 +105,7 @@ const langData = {
       "comment_text2": "2,000 dan ortiq hamkorlarimiz bor. Ularning har oylik daromadlari qiyin formula bilan hisoblanadi",
       "comment_text3": "CMD-TECH jamoasiga shuni avtomatlashtirish bo’yicha yuzlandik. Dasturni yaratib berishdi, ishlayapti.",
       "comment_text4": "Hozir bu ishni boshqa dasturchilarga ishonib topshirishni ko’z oldimga keltirolmayman",
-      "comment_text6": "Saytsiz eksportga ishlash qiyin<",
+      "comment_text6": "Saytsiz eksportga ishlash qiyin",
       "comment_text7": "Biz tabiiy tolalardan kundalik va maxsus kiyimlar ishlab chiqarish bilan shug’ullanamiz. 90% eksportga ishlaganimiz uchun, korxonamiz to’liq quvvatini ko’rsatadigan sayt kerak bo’ldi.",
       "comment_text8": "CMD-TECH jamoasiga saytimiz dizaynini ishonib topshirdik. Natija kutilganidek bo’ldi. Muhimi ular boshqa davlat odamlariga nima yoqishini bilishadi. Juda xursandmiz.",
       "comment_text9": "Barchaga tavsiya qilaman!",
@@ -632,7 +632,7 @@ const langData = {
   
   
   // Tilni qayta belgilash
-  let selectedLanguage = 'ru';
+  let selectedLanguage = 'uz';
   langElements.forEach(el => {
     el.textContent = langData[selectedLanguage][el.getAttribute('key')];
   });
