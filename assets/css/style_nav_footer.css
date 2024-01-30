@@ -927,10 +927,7 @@ nav.scrolled{
     justify-content: center;
     align-items: center;
   }
-  .modal2-content h1{
-    /* text-align: center; */
-        /* width:40%; */
-  
+  .modal2-content h1{  
     color: black;
     font-size: 25px;
     font-family: "Montserrat", sans-serif;

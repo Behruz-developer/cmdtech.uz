@@ -632,7 +632,7 @@ const langData = {
   
   
   // Tilni qayta belgilash
-  let selectedLanguage = 'uz';
+  let selectedLanguage = 'ru';
   langElements.forEach(el => {
     el.textContent = langData[selectedLanguage][el.getAttribute('key')];
   });

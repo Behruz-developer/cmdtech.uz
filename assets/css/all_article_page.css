@@ -344,8 +344,6 @@ body{
   padding-top: 100px;
   padding-bottom: 100px;
   width: 100%;
-
-
 }
 .content_box{
   display: flex;
@@ -409,6 +407,10 @@ body{
   }
 }
 @media (max-width:860px) {
+  .content{
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
   .content_card{
     width: 100%;
     display: flex;
