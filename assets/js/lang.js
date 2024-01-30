@@ -137,7 +137,7 @@ const langData = {
       "service_text9": "SMM",
       "service_text10": "Logotip yasash",
       "service_text11": "Brend nomlarini topsih",
-      "": "",
+      "article_title1": "Boshqa Maqolalar",
 
       "portfolio_text1": "Ko'rsatilga xizmatlar",
       "portfolio_text2": "SEO",
@@ -200,9 +200,15 @@ const langData = {
       "info_text21":"Ishlab chiqaruvchi korxonalar uchun web sayt ochish xizmatlari",
       "info_text22":"Mashhur brendlar uchun ekskluziv veb sayt ochish",
       "info_text23":"Veb saytlar uchun texnik shart ishlab chiqish",
-
-
       "": "",
+      "tag_text1": "Teglar",
+      "tag_text2": "#dasturlash",
+      "tag_text3": "#backend",
+      "tag_text4": "#laravel",
+      "tag_text5": "Dasturlash",
+      "tag_text6": "KPI",
+      "tag_text7": "SEO",
+      "tag_text8": "Google",
   
       
     },
@@ -345,6 +351,8 @@ const langData = {
       "service_text9": "SMM",
       "service_text10": "Сделать логотип",
       "service_text11": "Список торговых марок",
+      "article_title1": "Другие статьи",
+
       "": "", 
 
       "portfolio_text1": "Услуги для показа",
@@ -409,7 +417,14 @@ const langData = {
       "info_text23":"Разработка технического задания для сайтов",
       "": "", 
       "": "", 
-  
+      "tag_text1": "Теги",
+      "tag_text2": "#программирование",
+      "tag_text3": "#серверная часть",
+      "tag_text4": "#ларавель",
+      "tag_text5": "Программирование",
+      "tag_text6": "KPI",
+      "tag_text7": "SEO",
+      "tag_text8": "Google",
   
   
   
@@ -553,6 +568,8 @@ const langData = {
       "service_text9": "SMM",
       "service_text10": "Make a logo",
       "service_text11": "List of brand names",
+      "article_title1": "Other Articles",
+
       "": "",
 
       "portfolio_text1": "Services to show",
@@ -615,7 +632,15 @@ const langData = {
       "info_text21":"Website development services for manufacturing enterprises",
       "info_text22":"Opening an exclusive website for famous brands",
       "info_text23":"Development of specifications for websites",
-      "": "",
+      "tag_text1": "Tags",
+      "tag_text2": "#programming",
+      "tag_text3": "#backend",
+      "tag_text4": "#laravel",
+      "tag_text5": "Programming",
+      "tag_text6": "KPI",
+      "tag_text7": "SEO",
+      "tag_text8": "Google",
+  
       "": "",  
     }
   };
