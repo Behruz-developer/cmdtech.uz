@@ -209,6 +209,8 @@ const langData = {
       "tag_text6": "KPI",
       "tag_text7": "SEO",
       "tag_text8": "Google",
+      "all_tags": "Barcha taglar",  
+
   
       
     },
@@ -425,6 +427,8 @@ const langData = {
       "tag_text6": "KPI",
       "tag_text7": "SEO",
       "tag_text8": "Google",
+      "all_tags": "Все теги",  
+
   
   
   
@@ -641,7 +645,7 @@ const langData = {
       "tag_text7": "SEO",
       "tag_text8": "Google",
   
-      "": "",  
+      "all_tags": "All tags",  
     }
   };
   

@@ -88,3 +88,27 @@
     fill: white;
     cursor: pointer;
 }
+.title_box{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.tags_link{
+    padding: 10px 30px;
+    background: rgb(80, 80, 254);
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    justify-content: start;
+}
+@media (max-width:480px) {
+    .tags_link{
+        padding: 8px 20px;
+        font-size: 16px;
+
+    }
+}

@@ -11,7 +11,8 @@
 .tegs_box{
     margin-top: 30px;
     display: flex;
-    column-gap: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 .tegs_link{
     text-decoration: none;
