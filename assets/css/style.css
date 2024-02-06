@@ -881,6 +881,7 @@ line-height: 1.8em;
   font-size: 18px;
   font-style: normal;
   border-radius: 10px;
+  cursor: pointer;
   text-align: center;
 }
 .section2-4_button :hover{

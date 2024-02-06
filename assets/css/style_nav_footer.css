@@ -145,11 +145,12 @@ nav {
     color: #5050FE;
     background: white;
     border-radius: 5px;
-
+    display: inline;
     padding: 10px;
     font-family: "Montserrat" sans-serif;
     font-size: 14px;
     font-family: 600;
+    cursor: pointer;
 }
 .nav_button :hover{
     box-shadow: 1px 1px 11px rgb(223, 223, 223);
@@ -481,6 +482,7 @@ nav.scrolled{
     margin-bottom: 40px;
   }
   .footer_link{
+    display: inline;
     text-decoration: none;
     color: white;
     background: #5050FE;
@@ -489,6 +491,7 @@ nav.scrolled{
     font-family: "Inter", sans-serif;
     font-size: 18px;
     font-weight: 400;
+    cursor: pointer;
   }
 
   .first_block2_title{

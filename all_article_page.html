@@ -62,7 +62,7 @@
               <div class="logo-phone-container">
                 <div class="phone-numbers">
                     <div class="number-card">
-                        <button class="nav_button"><a href="#!" class="nav_button_text lang" key="nav_text" id="myBtn1">Buyurtma berish</a></button>
+                        <button class="nav_button"><div class="nav_button_text lang" key="nav_text" id="myBtn1" onclick="openNav('myModal')">Buyurtma berish</div></button>
                         <img class="number_icon" src="assets/imgs/footer-phone.png" alt="">
                         <a class="number_card_text"   href="tel:+998938091644">(93) 809-16-44</a>
                     </div>
@@ -126,7 +126,8 @@
                         <p class="first_block1_subtitle lang" key="footer_text2">
                             Yuz marta o'qigandan ko'ra, bir marta gaplashish yaxshiroqdir. Sizning biznesingizni tahlil qilaylik va siz uchun maxsus taklif tayyorlaylik.
                         </p>
-                        <a href="#!" class="footer_link lang btn_hover" id="myBtn3" key="footer_text2.2">Arizangizni yuboring</a>
+                        <div class="footer_link lang btn_hover" id="myBtn3" key="footer_text2.2" onclick="openNav('myModal')">Arizangizni yuboring</div>
+
 
                     </div>
                     <div class="first_block1">
@@ -223,7 +224,7 @@
 
     <div id="myModal" class="modal">
         <div class="modal-content">
-          <span class="close">&times;</span>
+            <span class="close" onclick="closeNav('myModal')">&times;</span>
           <h3 class="modal_title lang" key="btn_text1"></h3>
           <h4 class="modal_subtitle lang" key="btn_text2"></h4>
           <input class="modal_input" type="text">
